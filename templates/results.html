@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/styles.css">
+    <title>Results</title>
+</head>
+<body>
+    <h1>Sentiment Analysis Results</h1>
+    <p><strong>Detected Sentiment:</strong> {{ sentiment }}</p>
+    <h2>Recommendations:</h2>
+    <div class="rec-div">
+        <ul>
+            {% for rec in recommendations %}
+            <li class="results"><a href="{{ rec['link'] }}" target="_blank">{{ rec['type'].capitalize() }}</a></li>
+            {% endfor %}
+        </ul>
+    </div>
+    <a href="/" class="button-link">Analyze another text</a>
+</body>
+</html>

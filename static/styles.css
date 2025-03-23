@@ -1,0 +1,152 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0f7fa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1 {
+    background-color: #ffeb3b;
+    padding: 20px;
+    font-size: 30px;
+    margin: 0;
+}
+
+p {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+strong {
+    color: #e64a19;
+}
+
+h2 {
+    font-size: 24px;
+    margin-top: 30px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+}
+
+li {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+a {
+    color: #0288d1;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+button {
+    background-color: #0288d1;
+    color: white;
+    font-size: 18px;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    box-shadow: 4px 3px 16px -6px rgba(0,0,0,0.75);
+}
+
+button:hover {
+    background-color: #01579b;
+}
+
+a.button-link {
+    display: inline-block;
+    background-color: #0288d1;
+    color: white;
+    padding: 15px 40px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    box-shadow: 4px 3px 16px -6px rgba(0,0,0,0.75);
+}
+
+a.button-link:hover {
+    background-color: #01579b;
+}
+
+label {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f57c00;
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 5px;
+    text-shadow: 4px 3px 16px -6px rgba(0,0,0,0.75);
+}
+
+.video-container {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+iframe {
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 4px 3px 16px -6px rgba(0,0,0,0.75);
+}
+
+textarea {
+    width: 90%;
+    max-width: 500px;
+    height: 100px;
+    font-size: 18px;
+    font-family: 'Arial', sans-serif;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+    background: rgba(255, 255, 255, 0.41);
+    box-shadow: 4px 3px 16px -6px rgba(0, 0, 0, 0.75);
+}
+
+
+.results{
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    background: #f57c00;
+    padding: 20px 10px;
+    width: 90%;
+    min-width: 150px;
+    max-width: 300px;
+    border-radius: 5px;
+}
+
+.results strong{
+    color:black;
+}
+
+.results a{
+    color: white;
+}
+
+.rec-div{
+    display: flex;
+    justify-content: center;
+    width: fit-content;
+    margin: 0 auto;
+    background: rgba(202, 202, 202, 0.37);
+    padding: 10px 20px;
+    border-radius: 7px;
+    box-shadow: 4px 3px 16px -6px rgba(0, 0, 0, 0.75);
+}
+
